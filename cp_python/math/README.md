@@ -1,7 +1,7 @@
 # math library
 
 ## factorial
-[factorial.py]()  
+[factorial.py](factorial.py)  
 combination(nCr)、permutation(nPr)を計算するライブラリ
 * combination
     * verify: [AGC025B(RGB Coloring)](https://atcoder.jp/contests/agc025/tasks/agc025_b)
