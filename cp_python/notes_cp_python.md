@@ -97,10 +97,10 @@ for key, value in itertools.groupby(a):
 ## 隣接する偶奇をまとめる
 for key, value in itertools.groupby(a, key=lambda x: x % 2):
     print(key, list(value))
-# 1 [1, 3]
-# 0 [2, 4]
-# 1 [3, 1, 1]
-# 0 [2, 4]
+# 1 [1, 1]
+# 0 [2]
+# 1 [3, 3, 3, 1]
+# 0 [2, 2]
 ```
 
 ### メモ化

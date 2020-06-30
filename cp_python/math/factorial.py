@@ -6,7 +6,7 @@
 ## (not)ref: https://qiita.com/ofutonfuton/items/92b1a6f4a7775f00b6ae
 
 ## begin library factorial
-## usage: fac = Factorial()
+## usage: fac = Factorial(N)
 ## usage: nCr = fac.comb(n, r)
 ## usage: nPr = fac.perm(n, r)
 class Factorial:
